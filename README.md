@@ -63,8 +63,9 @@ returns 1.096 and 0.00051.
 pip install -r requirements.txt
 ```
 
-Open `Equity_Factor_Tearsheet.ipynb`, run all cells, then edit the ticker in
-section 11.
+Open `Equity_Factor_Tearsheet.ipynb` and run all cells. Sections 1 to 9 build
+the engine, 10 validates it against synthetic data, 11 runs it, 12 reads the
+output back. Change the ticker in section 11.
 
 ```python
 result = generate_tearsheet("AAPL")
@@ -94,4 +95,4 @@ Econometrica 55(3), 703-708.
 Ken French Data Library:
 https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
 
-Concepts and method explained in `docs/methodology.md`.
+Concepts and method explained in [docs/methodology.md](docs/methodology.md).
