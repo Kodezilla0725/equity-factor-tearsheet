@@ -71,6 +71,14 @@ result = generate_tearsheet("AAPL")
 comparison = compare(["AAPL", "KO", "ARKK", "BRK-B"])
 ```
 
+## Repo contents
+
+| Path | Contents |
+|------|----------|
+| `Equity_Factor_Tearsheet.ipynb` | Sections 1-9 build the engine, 10 validates it, 11 runs it, 12 reads the output back |
+| `requirements.txt` | Dependencies, including jinja2 for the styled `compare()` table |
+| `figures/aapl_tearsheet.png` | The figure above, cell 22 output |
+
 ## References
 
 Fama, E. and French, K. (1993). Common risk factors in the returns on stocks
@@ -85,3 +93,5 @@ Econometrica 55(3), 703-708.
 
 Ken French Data Library:
 https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
+
+Concepts and method explained in `docs/methodology.md`.
